@@ -46,8 +46,11 @@ class Transaction(Base):
     txn_id = Column(String)
 
     account_id = Column(String)
+    
+    date = Column(String)
 
-    date = Column(String)   # <-- ADD THIS
+      # <-- ADD THIS
+
 
     merchant = Column(String)
 

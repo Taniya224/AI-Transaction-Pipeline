@@ -24,7 +24,7 @@ Client → FastAPI → Redis Queue → RQ Worker → CSV Processing → PostgreS
 ### Clone Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Taniya224/AI-Transaction-Pipeline
 cd ai-transaction-pipeline/app/api
 ```
 
